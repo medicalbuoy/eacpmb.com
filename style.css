@@ -2,3 +2,19 @@
     margin: 0px;
     padding: 0px;
 }
+
+
+
+aside, .right {
+    float: right;
+    
+}
+
+main, .left {
+    float: left;
+}
+
+.box {
+    border: 2px solid black;
+}
+

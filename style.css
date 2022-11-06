@@ -9,6 +9,7 @@ body {
 .header {
     font-size: 25px;
     background-color:red;
+    text-align: center;
 }
 
 .logo{
@@ -23,16 +24,15 @@ body {
     flex-direction: row;
 }
 
-
 .main {
     background-color: gray;
+    width: 70%;
 }
 
 .container > .main {
     -webkit-flex: auto;
     flex: auto;
 }
-
 
 .container > .right {
     width: 12rem;
@@ -42,9 +42,7 @@ body {
     background-color:lightgreen;
     width: 30%;
     border: 1px black solid;
-
 }
-
 
 p {
     display: inline;
@@ -53,11 +51,38 @@ p {
 .links a {
     display: flex;
     justify-content: center;
-    color: black;
+    color: blue;
+}
+
+.extra {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.nosotros {
+    justify-content: space-evenly;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-direction:row;
+    flex-direction:row;
+}
+
+.per {
+    width: 30%;
+}
+
+.espver {
+    background-color: white;
+    height: 80px;
+    width: 2px;
+    margin-bottom: 50px;
 }
 
 .footer {
-    justify-content: space-between;
+    justify-content: space-around;
     display: flex;
     display: -webkit-flex;
     background-color: blueviolet;
@@ -67,15 +92,20 @@ p {
     color:black
 }
 
-
-.extra {
-    text-align: center;
+.foto {
+    /* width: 500px; */
+    height: 200px;
 }
 
-.nosotros {
-    justify-content: space-around;
+.info {
+    justify-content: space-between;
     display: flex;
     display: -webkit-flex;
     -webkit-flex-direction:row;
     flex-direction: row;
+}
+
+
+.uno, .dos {
+    padding: 15px;
 }

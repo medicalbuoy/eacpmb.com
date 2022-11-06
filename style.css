@@ -14,9 +14,15 @@ body {
     flex-direction: column; */
 }
 
-header {
+header, .header {
+    display:block;
     text-align: center;
     font-size: 25px;
+}
+
+
+.header {
+    background-color:red;
 }
 
 .logo{
@@ -26,6 +32,8 @@ header {
 
 aside {
     float: right;
+    display:block;
+    background-color:lightblue;
     width: 30%;
     height: 100%;
     border: 5px black solid;
